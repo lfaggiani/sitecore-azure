@@ -1,0 +1,63 @@
+﻿{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "deploymentId": {
+      "value": "uat-boatus-test"
+    },
+    "location": {
+      "value": "East US"
+    },
+    "sitecoreAdminPassword": {
+      "value": "PcM2RegsULtgUVs2"
+    },
+    "licenseXml": {
+      "value": "C:\Users\lefaggiani\Documents\clients\boatus\uatinstall\license.xml"
+    },
+    "repAuthenticationApiKey": {
+      "value": "239fc5d6-0aa9-4f86-a410-c39f92752a86"
+    },
+    "sqlServerLogin": {
+      "value": "uat-sql-admin02"
+    },
+    "sqlServerPassword": {
+      "value": "bEHgnpzS2ZgVQr3Q"
+    },
+    "cmMsDeployPackageUrl": {
+      "value": "https://vltboatus.blob.core.windows.net/sitecoredeployment/Sitecore%209.0.2%20rev.%20180604%20(Cloud)_cm.scwdp.zip?st=2019-06-18T14%3A50%3A55Z&se=2019-08-19T14%3A50%3A00Z&sp=racwdl&sv=2018-03-28&sr=c&sig=eb9A48v7KQPhsBLJ65AeYN%2FhK0U13NqL2iziL8PFnV0%3D"
+    },
+    "cdMsDeployPackageUrl": {
+      "value": "https://vltboatus.blob.core.windows.net/sitecoredeployment/Sitecore%209.0.2%20rev.%20180604%20(Cloud)_cd.scwdp.zip?st=2019-06-18T14%3A50%3A55Z&se=2019-08-19T14%3A50%3A00Z&sp=racwdl&sv=2018-03-28&sr=c&sig=eb9A48v7KQPhsBLJ65AeYN%2FhK0U13NqL2iziL8PFnV0%3D"
+    },
+    "prcMsDeployPackageUrl": {
+      "value": "https://vltboatus.blob.core.windows.net/sitecoredeployment/Sitecore%209.0.2%20rev.%20180604%20(Cloud)_prc.scwdp.zip?st=2019-06-18T14%3A50%3A55Z&se=2019-08-19T14%3A50%3A00Z&sp=racwdl&sv=2018-03-28&sr=c&sig=eb9A48v7KQPhsBLJ65AeYN%2FhK0U13NqL2iziL8PFnV0%3D"
+    },
+    "repMsDeployPackageUrl": {
+      "value": "https://vltboatus.blob.core.windows.net/sitecoredeployment/Sitecore%209.0.2%20rev.%20180604%20(Cloud)_rep.scwdp.zip?st=2019-06-18T14%3A50%3A55Z&se=2019-08-19T14%3A50%3A00Z&sp=racwdl&sv=2018-03-28&sr=c&sig=eb9A48v7KQPhsBLJ65AeYN%2FhK0U13NqL2iziL8PFnV0%3D"
+    },
+    "xcRefDataMsDeployPackageUrl": {
+      "value": "https://vltboatus.blob.core.windows.net/sitecoredeployment/Sitecore%209.0.2%20rev.%20180604%20(Cloud)_xp1referencedata.scwdp.zip?st=2019-06-18T14%3A50%3A55Z&se=2019-08-19T14%3A50%3A00Z&sp=racwdl&sv=2018-03-28&sr=c&sig=eb9A48v7KQPhsBLJ65AeYN%2FhK0U13NqL2iziL8PFnV0%3D"
+    },
+    "xcCollectMsDeployPackageUrl": {
+      "value": "https://vltboatus.blob.core.windows.net/sitecoredeployment/Sitecore%209.0.2%20rev.%20180604%20(Cloud)_xp1collection.scwdp.zip?st=2019-06-18T14%3A50%3A55Z&se=2019-08-19T14%3A50%3A00Z&sp=racwdl&sv=2018-03-28&sr=c&sig=eb9A48v7KQPhsBLJ65AeYN%2FhK0U13NqL2iziL8PFnV0%3D"
+    },
+    "xcSearchMsDeployPackageUrl": {
+      "value": "https://vltboatus.blob.core.windows.net/sitecoredeployment/Sitecore%209.0.2%20rev.%20180604%20(Cloud)_xp1collectionsearch.scwdp.zip?st=2019-06-18T14%3A50%3A55Z&se=2019-08-19T14%3A50%3A00Z&sp=racwdl&sv=2018-03-28&sr=c&sig=eb9A48v7KQPhsBLJ65AeYN%2FhK0U13NqL2iziL8PFnV0%3D"
+    },
+    "maOpsMsDeployPackageUrl": {
+      "value": "https://vltboatus.blob.core.windows.net/sitecoredeployment/Sitecore%209.0.2%20rev.%20180604%20(Cloud)_xp1marketingautomation.scwdp.zip?st=2019-06-18T14%3A50%3A55Z&se=2019-08-19T14%3A50%3A00Z&sp=racwdl&sv=2018-03-28&sr=c&sig=eb9A48v7KQPhsBLJ65AeYN%2FhK0U13NqL2iziL8PFnV0%3D"
+    },
+    "maRepMsDeployPackageUrl": {
+      "value": "https://vltboatus.blob.core.windows.net/sitecoredeployment/Sitecore%209.0.2%20rev.%20180604%20(Cloud)_xp1marketingautomationreporting.scwdp.zip?st=2019-06-18T14%3A50%3A55Z&se=2019-08-19T14%3A50%3A00Z&sp=racwdl&sv=2018-03-28&sr=c&sig=eb9A48v7KQPhsBLJ65AeYN%2FhK0U13NqL2iziL8PFnV0%3D"
+    }, 
+    "authCertificateBlob":{
+      "value": ""
+    },
+    "authCertificatePassword":{
+      "value": "s3cp4ass!"
+    },
+	"allowInvalidClientCertificates": {
+	"value": true
+	}
+  }
+}
